@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void addCardRedForTeamA(View v) {
         cardRed = cardRed + 1;
-        displayForTeamA(cardRed);
+        displayCardRedForTeamA(cardRed);
     }
 
     /**
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addCardYellowForTeamA(View v) {
         cardYellow = cardYellow + 1;
-        displayForTeamA(cardYellow);
+        displayCardYellowForTeamA(cardYellow);
     }
 
     public void displayForTeamA(int score) {
@@ -99,22 +99,24 @@ public class MainActivity extends AppCompatActivity {
 
     public void addCardRedForTeamB(View v) {
         cardRedTeamB = cardRedTeamB + 1;
-        displayForTeamB(cardRedTeamB);
+        //displayForTeamB(cardRedTeamB);
+        displayCardRedForTeamB(cardRedTeamB);
     }
     /**
      * mark card yellow team B.
      */
     public void addCardYellowTeamB(View v) {
         cardYellowTeamB = cardYellowTeamB + 1;
-        displayForTeamB(cardYellowTeamB);
+        //displayForTeamB(cardYellowTeamB);
+        displayCardyellowForTeamB(cardYellowTeamB);
     }
 
-    public void displayCardRedForTeamB(int score) {
+    public void displayForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_b_score);
         scoreView.setText(String.valueOf(score));
     }
 
-    public void displayForTeamB(int score) {
+    public void displayCardRedForTeamB(int score) {
         TextView scoreView = (TextView) findViewById(R.id.card_red_teamB);
         scoreView.setText(String.valueOf(score));
     }
@@ -124,14 +126,13 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-
     public void resetScore(View v) {
-        int goalTeamA = 0;
-        int cardYellow = 0;
-        int cardRed = 0;
-        int goalTeamB = 0;
-        int cardRedTeamB = 0;
-        int cardYellowTeamB = 0;
+         goalTeamA = 0;
+         cardYellow = 0;
+         cardRed = 0;
+         goalTeamB = 0;
+         cardRedTeamB = 0;
+         cardYellowTeamB = 0;
         displayForTeamA(goalTeamA);
         displayForTeamA(cardYellow);
         displayCardRedForTeamA(cardRed);
