@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Score Keeper Soccer</string>
+    <string name="tv_team_a">Team A</string>
+    <string name="bt_goal_team_a">Goal</string>
+    <string name="bt_card_red_team_a">Card Red</string>
+    <string name="bt_card_yellow_team_a">Card yellow</string>
+
+    <string name="tv_team_b">Team B</string>
+    <string name="bt_goal_team_b">Goal</string>
+    <string name="bt_card_red_team_b">Card Red</string>
+    <string name="bt_card_yellow_team_b">Card Yellow</string>
+
+    <string name="bt_reset">Reset</string>
+
 </resources>

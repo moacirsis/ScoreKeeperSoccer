@@ -20,7 +20,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="16dp"
-                android:text="Team A"
+                android:text="@string/tv_team_a"
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
@@ -37,13 +37,9 @@
 
             <Button
                 android:id="@+id/goal_teamA"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:onClick="addGoalForTeamA"
-                android:text=" Goal " />
+                style="@style/customButtonStyleGoalTeamA"
+                android:text="@string/bt_goal_team_a" />
 
             <TextView
                 android:id="@+id/card_red_teamA"
@@ -57,15 +53,11 @@
                 android:textSize="56sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                style="@style/customButtonStyleCardRedTeamA"
                 android:backgroundTint="@android:color/holo_red_light"
                 android:elevation="0dp"
                 android:onClick="addCardRedForTeamA"
-                android:text="card Red" />
+                android:text="@string/bt_card_red_team_a" />
 
             <TextView
                 android:id="@+id/card_yellow_teamA"
@@ -79,14 +71,10 @@
                 android:textSize="56sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                style="@style/customButtonStyleCardYellowTeamA"
                 android:backgroundTint="@android:color/holo_orange_light"
                 android:onClick="addCardYellowForTeamA"
-                android:text="card Yellow" />
+                android:text="@string/bt_card_yellow_team_a" />
 
 
         </LinearLayout>
@@ -109,7 +97,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="16dp"
-                android:text="Team B"
+                android:text="@string/tv_team_b"
                 android:textColor="#616161"
                 android:textSize="14sp" />
 
@@ -125,13 +113,9 @@
                 android:textSize="56sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                style="@style/customButtonStyleGoalTeamB"
                 android:onClick="addGoalForTeamB"
-                android:text="Goal" />
+                android:text="@string/bt_goal_team_b" />
 
             <TextView
                 android:id="@+id/card_red_teamB"
@@ -145,14 +129,10 @@
                 android:textSize="56sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                style="@style/customButtonStyleCardRedTeamB"
                 android:backgroundTint="@android:color/holo_red_light"
                 android:onClick="addCardRedForTeamB"
-                android:text="Card Red" />
+                android:text="@string/bt_card_red_team_b" />
 
             <TextView
                 android:id="@+id/card_yellow_teamB"
@@ -166,28 +146,18 @@
                 android:textSize="56sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                style="@style/customButtonStyleCardYellowTeamB"
                 android:backgroundTint="@android:color/holo_orange_light"
                 android:onClick="addCardYellowTeamB"
-                android:text="Card Yellow" />
+                android:text="@string/bt_card_yellow_team_b" />
 
 
         </LinearLayout>
     </LinearLayout>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
+        style="@style/customButtonStyleReset"
         android:onClick="resetScore"
-        android:text="Reset" />
+        android:text="@string/bt_reset" />
 
 </RelativeLayout>
