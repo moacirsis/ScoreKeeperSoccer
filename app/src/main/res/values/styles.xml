@@ -10,71 +10,71 @@
   <!-- style team A . -->
 
     <style name="customButtonStyleGoalTeamA" parent="Base.Widget.AppCompat.Button">
-        <item name="<android:layout_width">match_parent</item>
-        <item name="<android:layout_height=">wrap_content</item>
-        <item name="<android:layout_marginBottom">8dp</item>
-        <item name="<android:layout_marginLeft">24dp</item>
-        <item name="<android:layout_marginRight">24dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
 
     </style>
 
     <style name="customButtonStyleCardRedTeamA" parent="Base.Widget.AppCompat.Button">
-        <item name="<android:layout_width">match_parent</item>
-        <item name="<android:layout_height=">wrap_content</item>
-        <item name="<android:layout_marginBottom">8dp</item>
-        <item name="<android:layout_marginLeft">24dp</item>
-        <item name="<android:layout_marginRight">24dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
 
     </style>
 
     <style name="customButtonStyleCardYellowTeamA" parent="Base.Widget.AppCompat.Button">
-        <item name="<android:layout_width">match_parent</item>
-        <item name="<android:layout_height=">wrap_content</item>
-        <item name="<android:layout_marginBottom">8dp</item>
-        <item name="<android:layout_marginLeft">24dp</item>
-        <item name="<android:layout_marginRight">24dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
 
     </style>
 
     <!-- style team B . -->
 
     <style name="customButtonStyleGoalTeamB" parent="Base.Widget.AppCompat.Button">
-        <item name="<android:layout_width">match_parent</item>
-        <item name="<android:layout_height=">wrap_content</item>
-        <item name="<android:layout_marginBottom">8dp</item>
-        <item name="<android:layout_marginLeft">24dp</item>
-        <item name="<android:layout_marginRight">24dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
 
     </style>
 
     <style name="customButtonStyleCardRedTeamB" parent="Base.Widget.AppCompat.Button">
-    <item name="<android:layout_width">match_parent</item>
-    <item name="<android:layout_height=">wrap_content</item>
-    <item name="<android:layout_marginBottom">8dp</item>
-    <item name="<android:layout_marginLeft">24dp</item>
-    <item name="<android:layout_marginRight">24dp</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginBottom">8dp</item>
+    <item name="android:layout_marginLeft">24dp</item>
+    <item name="android:layout_marginRight">24dp</item>
 
     </style>
 
     <style name="customButtonStyleCardYellowTeamB" parent="Base.Widget.AppCompat.Button">
-        <item name="<android:layout_width">match_parent</item>
-        <item name="<android:layout_height=">wrap_content</item>
-        <item name="<android:layout_marginBottom">8dp</item>
-        <item name="<android:layout_marginLeft">24dp</item>
-        <item name="<android:layout_marginRight">24dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginRight">24dp</item>
 
     </style>
 
     <!-- style reset . -->
 
     <style name="customButtonStyleReset" parent="Base.Widget.AppCompat.Button">
-        <item name="<android:layout_width">wrap_content</item>
-        <item name="<android:layout_height=">wrap_content</item>
-        <item name="<android:layout_marginBottom">8dp</item>
-        <item name="<android:layout_marginLeft">22dp</item>
-        <item name="<android:layout_marginRight">22dp</item>
-        <item name="<android:layout_alignParentBottom">true</item>
-        <item name="<android:layout_centerHorizontal">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">22dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
 
     </style>
 
